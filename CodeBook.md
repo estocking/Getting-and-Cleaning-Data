@@ -1,29 +1,21 @@
 
-For each record it is provided:
+The data:
 ======================================
 
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-- Triaxial Angular velocity from the gyroscope. 
-- A 561-feature vector with time and frequency domain variables. 
-- Its activity label. 
-- An identifier of the subject who carried out the experiment.
+The data used in this analysis represent data collected from the accelerometers from the Samsung Galaxy S smartphone
 
-The dataset includes the following files:
+The dataset is pulled from the following files in the UCI HAR Dataset:
 =========================================
-
-- 'README.txt'
-
-- 'features_info.txt': Shows information about the variables used on the feature vector.
 
 - 'features.txt': List of all features.
 
-- 'activity_labels.txt': Links the class labels with their activity name.
+- 'activity_labels.txt': Links the class labels with their activity name (eg 1 represents 'Walking').
 
-- 'train/X_train.txt': Training set.
+- 'train/X_train.txt': Training data set.
 
 - 'train/y_train.txt': Training labels.
 
-- 'test/X_test.txt': Test set.
+- 'test/X_test.txt': Test data set.
 
 - 'test/y_test.txt': Test labels.
 
